@@ -1,0 +1,30 @@
+{
+  "name": "minecraft-schematic",
+  "version": "0.0.0",
+  "description": "Read and write Minecraft schematic files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtfaremyinitials/minecraft-schematic.git"
+  },
+  "keywords": [
+    "schematic",
+    "minecraft",
+    "nbt",
+    "worldedit"
+  ],
+  "author": "Will Franzen <wtfranzen@gmail.com> (http://will.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtfaremyinitials/minecraft-schematic/issues"
+  },
+  "homepage": "https://github.com/wtfaremyinitials/minecraft-schematic",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "prismarine-nbt": "0.0.1"
+  }
+}
