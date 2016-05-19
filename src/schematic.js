@@ -88,7 +88,7 @@ class Schematic {
                 this.blockMeta = tag.value.value.Data.value;
             }).call(s);
 
-            cb(s);
+            cb(undefined, s);
         });
     };
 }
