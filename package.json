@@ -1,6 +1,6 @@
 {
   "name": "minecraft-schematic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Read and write Minecraft schematic files",
   "main": "index.js",
   "scripts": {
