@@ -77,15 +77,15 @@ class Schematic {
                 return;
             }
 
-            var length = tag.Schematic.Length;
-            var width  = tag.Schematic.Width;
-            var height = tag.Schematic.Height;
+            var length = tag.value.value.Length.value;
+            var width = tag.value.value.Width.value;
+            var height = tag.value.value.Height.value;
 
             var s = new Schematic(length, width, height);
 
             (function() {
-                this.blockData = tag.Schematic.Blocks;
-                this.blockMeta = tag.Schematic.Data;
+                this.blockData = tag.value.value.Blocks.value;
+                this.blockMeta = tag.value.value.Data.value;
             }).call(s);
 
             cb(undefined, s);
